@@ -1,0 +1,84 @@
+.wedding-page {
+    position: relative;
+    text-align: center;
+    color: white;
+}
+
+.wedding-page-blur {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: white;
+    z-index: -1;
+    opacity: 0.1;
+    filter: blur(4px);
+    -o-filter: blur(4px);
+    -ms-filter: blur(4px);
+    -moz-filter: blur(4px);
+    -webkit-filter: blur(4px);
+}
+
+body {
+    background: url(./photos/background.jpg) no-repeat center center fixed;
+    /* background-color: black; */
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+img {
+    width: 100%;
+    padding: .5rem;
+    margin: .5rem .5rem 2rem .5rem;
+    background-color: white;
+    box-shadow: 0 0 2px 5px white;
+}
+
+.header {
+    background-color: white;
+    padding: 0 0 1rem 0;
+    color: black;
+    box-shadow: 0 0 2px 5px white;
+}
+
+.header>img {
+    margin: 0;
+    box-shadow: none;
+}
+
+.anchor {
+    font-size: 46px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.item-title {
+    font-size: 32px;
+    font-family: 'Great Vibes', cursive;
+}
+
+.leave {
+    font-weight: bold;
+}
+
+.page-sections {
+    padding-top: 30px;
+}
+
+h1 {
+    font-size: 50px;
+    font-family: 'Great Vibes', cursive;
+}
+
+h3 {
+    font-family: 'Lateef', cursive;
+    font-weight: bold;
+}
+
+p {
+    font-family: 'Lateef', cursive;
+    font-size: 28px;
+    letter-spacing: 0.0001em;
+}
