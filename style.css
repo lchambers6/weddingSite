@@ -1,3 +1,7 @@
+html {
+    scroll-behavior: smooth;
+}
+
 .wedding-page {
     position: relative;
     text-align: center;
@@ -21,7 +25,7 @@
 }
 
 body {
-    background: url(./photos/background.jpg) no-repeat center center fixed;
+    background: url(./sitePhotos/background.jpg) no-repeat center center fixed;
     /* background-color: black; */
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -46,6 +50,11 @@ img {
 
 .header>img {
     margin: 0;
+    box-shadow: none;
+}
+
+.photos>img {
+    margin: 0 0 5px 0;
     box-shadow: none;
 }
 
@@ -79,6 +88,21 @@ h3 {
 
 p {
     font-family: 'Lateef', cursive;
-    font-size: 28px;
+    font-size: 25px;
     letter-spacing: 0.0001em;
+}
+
+.navigation {
+    font-family: 'Lateef', cursive;
+    font-size: 25px;
+}
+
+.navigation a {
+    text-decoration: none;
+    background-color: transparent;
+    color: white;
+}
+
+.navigation a:hover {
+    color: grey;
 }
