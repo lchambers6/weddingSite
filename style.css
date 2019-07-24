@@ -106,3 +106,28 @@ p {
 .navigation a:hover {
     color: grey;
 }
+
+.hotel-details {
+    font-size: 20px;
+}
+
+@media (min-width: 768px) {
+    .left-hotel-details {
+        border-right: 1px white solid;
+    }
+}
+
+.icons {
+    width: 3rem;
+    background-color: transparent;
+    box-shadow: none;
+    margin: 1rem;
+}
+
+.link-buttons a {
+    color: white;
+}
+
+.lower-border {
+    border-bottom: 1px white solid;
+}
