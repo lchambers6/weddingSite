@@ -127,6 +127,7 @@ p {
 
 .link-buttons a {
     color: white;
+    text-decoration: underline;
 }
 
 .lower-border {
